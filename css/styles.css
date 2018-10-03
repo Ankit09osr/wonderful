@@ -1,0 +1,22 @@
+/*
+ * Border box declaration and font-size
+ */
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*
+ * Global reset to prevent default margin and padding
+ */
+*,
+*::after,
+*::before {
+  margin: 0rem;
+  padding: 0rem;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
