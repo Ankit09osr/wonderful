@@ -20,3 +20,33 @@ html {
   -moz-box-sizing: inherit;
   box-sizing: inherit;
 }
+
+/*
+ * Header styles
+ */
+.header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/header-background.jpg");
+  background-size: cover;
+}
+
+/*
+ * Basic Grid
+ */
+.row {
+  width: 114rem;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.col-1-of-2 {
+  flex: 0 0 50%;
+  margin-right: 8.3%;
+}
+
+.col-2-of-2 {
+  flex: 0 0 41.7%;
+}
+
