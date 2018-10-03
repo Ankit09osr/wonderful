@@ -42,6 +42,14 @@ html {
 }
 
 /*
+ * Typography Setting
+ */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+/*
  * Navigation styles
  */
 .navigation {
@@ -66,8 +74,11 @@ html {
 }
 
 .nav--link-text {
-  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.7rem;
   text-transform: uppercase;
+  color: #183A4F;
 }
 
 /*
