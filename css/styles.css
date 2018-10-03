@@ -22,16 +22,6 @@ html {
 }
 
 /*
- * Header styles
- */
-.header {
-  width: 100vw;
-  height: 100vh;
-  background-image: url("../images/header-background.jpg");
-  background-size: cover;
-}
-
-/*
  * Basic Grid
  */
 .row {
@@ -39,6 +29,7 @@ html {
   margin: 0 auto;
   display: flex;
   flex-flow: row wrap;
+  background-color: pink;
 }
 
 .col-1-of-2 {
@@ -49,4 +40,69 @@ html {
 .col-2-of-2 {
   flex: 0 0 41.7%;
 }
+
+/*
+ * Navigation styles
+ */
+.navigation {
+  width: 13rem;
+  position: fixed;
+  top: 3.3rem;
+  left: 16.6rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav--link-container {
+  text-decoration: none;
+}
+
+.nav--link-content {
+  width: 3.9rem;
+  height: 3.9rem;
+  background-image: url("../images/link-logo.svg");
+}
+
+.nav--link-text {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+/*
+ * Header styles
+ */
+.header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/header-background.jpg");
+  background-size: cover;
+}
+
+.header-top--image {
+  position: relative;
+  top: 0;
+  left: 35.27%;
+  width: 21.38%;
+  height: 28.9%;
+  animation-name: moveInTop;
+  animation-duration: 2s;
+}
+
+/*
+ * Animation
+ */
+ @keyframes moveInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-40rem);
+  }
+
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
 
