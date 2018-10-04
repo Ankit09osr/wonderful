@@ -55,6 +55,13 @@ body {
   color: #183A4F;
 }
 
+.heading-primary--white {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
 .header-text {
   font-size: 2rem;
   font-weight: 400;
@@ -164,6 +171,20 @@ body {
   box-shadow: 0 3.8rem 12.2rem 0 rgba(0, 0, 0, 0.3), 0 3.8rem 7.4rem 0 rgba(0, 0, 0, 0.28);
 }
 
+/*
+ * screen-2 css
+ */
+.screen-2 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/screen-2-background.jpg");
+  background-size: cover;
+}
+
+.iphone-card {
+  width: 100%;
+  height: 100%;
+}
 
 /*
  * Animation
@@ -197,10 +218,18 @@ body {
 /*
  * Utility
  */
-.u-margint-top-16 {
+.u-margin-top-16 {
   margin-top: 1.6rem;
 }
 
-.u-margint-top-1 {
+.u-margin-top-1 {
   margin-top: 1rem;
+}
+
+.u-margin-top-75 {
+  margin-top: 7.5rem;
+}
+
+.u-margin-top-85 {
+  margin-top: 12rem;
 }
