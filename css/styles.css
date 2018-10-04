@@ -125,6 +125,7 @@ body {
   height: 100vh;
   background-image: url("../images/header-background.jpg");
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .header-top--image {
@@ -186,6 +187,39 @@ body {
   height: 100%;
 }
 
+.card {
+  width: 51rem;
+  height: 21.4rem;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: #b3c5cd;
+  line-height: 1.7;
+  align-items: center;
+  background-color: transparent;
+}
+
+.card:hover {
+  box-shadow: none;
+  background-color: #ffffff;
+  color: #7d929a;
+  border-radius: 0.3rem
+}
+
+.card--left {
+  padding-top: 0.8rem;
+  flex: 0 0 31.5%;
+}
+
+.card--right {
+  flex: 0 0 68.5%;
+  padding: 3.3rem;
+}
+
+
 /*
  * Animation
  */
@@ -230,6 +264,14 @@ body {
   margin-top: 7.5rem;
 }
 
-.u-margin-top-85 {
+.u-margin-top-12 {
   margin-top: 12rem;
+}
+
+.u-margin-bottom-6 {
+  margin-bottom: 6rem;
+}
+
+.u-left-padding {
+  padding-left: 1.5rem;
 }
