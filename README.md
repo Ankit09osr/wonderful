@@ -1,5 +1,7 @@
 # wonderful
-Demo Application
+Demo Application (for screen size 1440px * 1240px)
 
-Download the application or clone it!
--> open html file using browser!
+Download or clone the application
+-> open index.html file using browser.
+
+
