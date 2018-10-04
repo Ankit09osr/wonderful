@@ -83,6 +83,13 @@ body {
   letter-spacing: 0.1rem;
 }
 
+.screen-2-card--text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: #b3c5cd;
+  line-height: 1.7;
+}
 
 
 /*
@@ -182,6 +189,12 @@ body {
   background-size: cover;
 }
 
+.screen2-left {
+  width: 90.7%;
+  height: 85%;
+  margin: 0 auto;
+}
+
 .iphone-card {
   width: 100%;
   height: 100%;
@@ -193,11 +206,6 @@ body {
   display: flex;
   flex-direction: row;
   margin-bottom: 2rem;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.7rem;
-  font-weight: 400;
-  color: #b3c5cd;
-  line-height: 1.7;
   align-items: center;
   background-color: transparent;
 }
@@ -206,11 +214,12 @@ body {
   box-shadow: none;
   background-color: #ffffff;
   color: #7d929a;
-  border-radius: 0.3rem
+  border-radius: 0.3rem;
 }
 
+
 .card--left {
-  padding-top: 0.8rem;
+  padding-top: 0.33rem;
   flex: 0 0 31.5%;
 }
 
@@ -218,7 +227,6 @@ body {
   flex: 0 0 68.5%;
   padding: 3.3rem;
 }
-
 
 /*
  * Animation
@@ -264,8 +272,8 @@ body {
   margin-top: 7.5rem;
 }
 
-.u-margin-top-12 {
-  margin-top: 12rem;
+.u-margin-top-9 {
+  margin-top: 9rem;
 }
 
 .u-margin-bottom-6 {
